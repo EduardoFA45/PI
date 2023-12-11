@@ -43,22 +43,100 @@ a.navbar-brand {
     text-align: center;
 }
 b {
+    color: var(--color-black);
+}
+h2 {
     color: var(--color-primary);
+}
+.letra {
+    color: var(--color-primary) !important;
+}
+.letra1 {
+    color: var(--color-text) !important;
 }
 .text {
     color: var(--color-text);
     padding-left: 75px;
     padding-top: 120px;
+    text-align: center;
 }
 .img-team {
-    width: 600px;
+    width: 650px;
 }
 .team {
-    border-radius: 10px;
-    padding-left: 220px;
-    width: 600px;
+    padding-left: 250px;
+    width: 900px;
     height: 500px;
+    border-radius: 10px;
 }
-.first-text {
+.card-banner {
+    height: 450px;
+    width: 450px;
+    border-radius: 170px;
+    background-color: var(--color-primary);
+    position: absolute;
+    right: 0;
+    top: -80px;
+}
+.img-banner img {
+    border-radius: 10px;
+    position: absolute;
+    width: 570px;
+    top: 30px;
+    right: 15px;
+}
+.card {
+    border-radius: 20px;
+    padding: 15px 50px;
+    font-size: 20px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1)!important;
+    border: none!important;
+}
+.card-case {
+    width: 350px;
+    font-size: 14px;
+    position: absolute;
+    right: 0;
+    bottom: -200px;
+    right: -120px;
+}
+.case-name {
+    position: absolute;
+    font-size: 12px;
+    color: var(--color-primary);
+    right: 20px;
+    bottom: 10px;
+}.banner {
+    padding-top: 110px;
+    padding-bottom: 200px;
+}
+.text-banner {
+    color: var(--color-text);
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.text-banner h1 {
+    color: var(--color-black);
+    font-size: 60px;
+}
+.text-banner p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.card-item {
+    height: 460px;
+}
+.card-item .img-produto img {
+    height: 300px;
+    width: 100%;
+    border-radius: 11px;
+}
+.integra {
+    padding-top: 350px;
+    padding-bottom: 150px;
+    padding-left: 200px;
+    align-items: center;
     display: flex;
 }
