@@ -1,0 +1,100 @@
+:root {
+    --color-grey: #1f1f1f;
+    --color-black: #212121;
+    --color-black-heavy: #000000;
+    --color-text: #ffffff;
+    --color-text-out: #90908e;
+    --color-primary: #00b58c;
+    --color-secondary: #161417;
+    --color-white: #ffffff;
+    --color-shadow: #181818;
+}
+body {
+    background-color: var(--color-secondary);
+    width: 95%;
+}
+.login {
+    width: 100%;
+    padding-left: 1050px;
+    padding-top: 300px;
+    text-align: center;
+    position: absolute;
+}
+.quadrado-login {
+    border-radius: 25px;
+    background-color: var(--color-grey);
+    width: 650px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+.buttons {
+    display: flex;
+    padding-left: 135px;
+    padding-top: 125px;
+    border: none;
+}
+.button-subscribe.active, .button-subscribe:hover{
+    background-color: var(--color-primary);
+    transform: scale(0.985);
+    transition: 0.25s;
+}
+.button-subscribe {
+    background-color: var(--color-white);
+    width: 180px;
+    height: 50px;
+    border-radius: 20px;
+    color: var(--color-black);
+    border: none;
+    outline: none;
+    text-align: center;
+}
+.all-sociais {
+    padding-right: 0;
+}
+.btn-sm {
+    padding: 9px 15px!important;
+    border-radius: 15px!important;
+    font-size: 18px!important;
+}
+.btn-social {
+    width: 50px;
+}
+.btn-white {
+    background-color: var(--color-white);
+    color: var(--color-black)!important;
+    border-radius: 20px;
+    padding: 15px 25px;
+    font-size: 20px;
+    box-shadow: 6px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+.btn-white.active, .btn-white:hover {
+    background-color: var(--color-primary);
+}
+.sobre-nos {
+    padding-left: 20px;
+}
+.button-sobrenos {
+    background-color: var(--color-white);
+    width: 180px;
+    height: 50px;
+    border-radius: 20px;
+    color: var(--color-black);
+    border: none;
+    outline: none;
+    text-align: center;
+}
+.button-sobrenos.active, .button-sobrenos:hover{
+    background-color: var(--color-primary);
+    transform: scale(0.985);
+    transition: 0.25s;
+}
+.image {
+    align-items: center;
+    margin-left: 180px;
+    padding-top: 100px
+}
+.imagem-educ {
+    width: 700px;
+    height: 700px;
+}

@@ -1,0 +1,64 @@
+:root {
+    --color-grey: #1f1f1f;
+    --color-black: #212121;
+    --color-black-heavy: #000000;
+    --color-text: #ffffff;
+    --color-text-out: #90908e;
+    --color-primary: #00b58c;
+    --color-secondary: #161417;
+    --color-white: #ffffff;
+    --color-shadow: #181818;
+}
+body {
+    background-color: var(--color-secondary);
+    width: 95%;
+}
+a.navbar-brand {
+    margin-left: -25px;
+}
+.nav-link {
+    color: var(--color-black)!important;
+    padding-left: 35px!important;
+    padding-right: 35px!important;
+    text-align: center;
+    padding-top: 12px;
+}
+.navbar-collapse {
+    display: flex;
+    justify-content: center;
+}
+.iten-menu.active, .iten-menu:hover{
+    background-color: var(--color-primary);
+    transform: scale(0.985);
+    transition: 0.25s;
+}
+.iten-menu {
+    background-color: var(--color-white);
+    width: 180px;
+    height: 50px;
+    border-radius: 20px;
+    color: var(--color-black);
+    border: none;
+    outline: none;
+    text-align: center;
+}
+b {
+    color: var(--color-primary);
+}
+.text {
+    color: var(--color-text);
+    padding-left: 75px;
+    padding-top: 120px;
+}
+.img-team {
+    width: 600px;
+}
+.team {
+    border-radius: 10px;
+    padding-left: 220px;
+    width: 600px;
+    height: 500px;
+}
+.first-text {
+    display: flex;
+}
